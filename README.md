@@ -58,7 +58,7 @@ sudo chmod +x /usr/local/bin/minikube
 ```
 télécharge la dernière version de l'exécutable kubectl pour Linux (architecture amd64)
 ```bash
-curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt` /bin/linux/amd64/kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 ```
 rend l'exécutable kubectl exécutable
 ```bash
